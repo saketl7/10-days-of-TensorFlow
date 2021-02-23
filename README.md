@@ -1,1 +1,1 @@
-# 10daysofmlchallenge(TensorFlow)
+# 10 Days of Tensorflow (TFUG India)
