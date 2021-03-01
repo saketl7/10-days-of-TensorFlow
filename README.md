@@ -1,7 +1,7 @@
 # 10 Days of Tensorflow (TFUG India)
 
 
-## Day 1:
+## Day 1: Understanding Machine Learning Tools
 Machine Learning Tools - Numpy, Pandas, Matplotlib 
 - Numpy Documentation: https://numpy.org/devdocs/
 - Pandas Documentation: https://pandas.pydata.org/docs/
@@ -28,7 +28,7 @@ Plot the data like:
   y: number of case
   
   
-## Day 2:
+## Day 2:Pre-processing and Feature Engineering
 Real-world data are not simple integers and float; Hence we need to do some pre-processing and Feature Engineering! 
 
 Topic: Feature Engineering & Pre-processing.
@@ -50,7 +50,7 @@ Data link: https://www.kaggle.com/c/titanic/data
 Starter pack for beginners: https://colab.research.google.com/drive/18j97Ia-xlEKa9IWqEFt613CF1y4qgxVx
 
 
-## Day 3:
+## Day 3:Building ML Models and Training them
 We have already Learned about Data Preprocessing and Feature Engineering. Let's take a Step Ahead and Learn How to actually Build ML Models and Train them.
 
 To start with here are some basic types of ML problems and some Resources:
@@ -72,9 +72,7 @@ Analyze the Toxicity of comment's (Data
 ! wget https://www.dropbox.com/s/tst2y6mzwzbhxo3/test.csv)
 
 
-## Day 4:
-Unsupervised Learning
-
+## Day 4:Unsupervised Learning
 Introduction to Unsupervised Learning
 https://algorithmia.com/blog/introduction-to-unsupervised-learning
 
@@ -86,19 +84,162 @@ Dataset link: https://www.kaggle.com/c/expedia-personalized-sort/data
 Task: Prepare a model on the above Dataset
 
 
-## Day 5:
+## Day 5:Introduction to CNN 
+Resources:
+1. Introduction to CNN- 
+https://towardsdatascience.com/introduction-to-convolutional-neural-networks-cnn-with-tensorflow-57e2f4837e18
+
+2. https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
+
+3. https://machinelearningmastery.com/image-augmentation-deep-learning-keras/
+
+4. https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/
+
+Task: To classify dogs and cats.
+
+Note: If you encounter overfitting, please use dropouts and data augmentation.
+
+Dataset:
+https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip
 
 
 
-## Day 6:
+## Day 6:Imaging Problem 
+
+Resources: 
+1. Fashion MNIST with Keras and Deep Learning https://www.pyimagesearch.com/2019/02/11/fashion-mnist-with-keras-and-deep-learning/
+
+2. How to develop a CNN from scratch for fashion MNIST http://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-fashion-mnist-clothing-classification/
+
+3. Fashion MNIST: https://www.tensorflow.org/datasets/catalog/fashion_mnist
+
+4. An Efficient Deep Learning Approach to Pneumonia Classification in Healthcare: https://www.hindawi.com/journals/jhe/2019/4180949/
+
+5. Deep Learning for Detecting Pneumonia from X-ray Images: https://towardsdatascience.com/deep-learning-for-detecting-pneumonia-from-x-ray-images-fc9a3d9fdba8
 
 
-## Day 7:
+Data set:
+For beginners: https://www.kaggle.com/zalando-research/fashionmnist
+
+For advanced users: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 
-## Day 8:
+## Day 7:Natural Language Processing 
+
+Concepts: 
+1. Introduction to NLP: https://towardsdatascience.com/gentle-start-to-natural-language-processing-using-python-6e46c07addf3
+2. NLTK 3.5b1 documentation: https://www.nltk.org/
+3. NLP Tutorial by Sentdex- https://www.youtube.com/watch?v=FLZvOKSCkxY
+
+Task:
+For Beginners: Movie Review Sentiment Analysis
+Dataset: https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews
+
+Resources
+Simple Sentiment Analysis : https://dzone.com/articles/simple-sentiment-analysis-with-nlp
+Sentiment Analysis of Movie Reviews: https://towardsdatascience.com/sentiment-analysis-a-how-to-guide-with-movie-reviews-9ae335e6bcb2
 
 
-## Day 9 & 10:
+
+Task: NLP Advanced-Twitter Sentiment Analysis
+Detect hate/racist speech in tweets
+Plotting WorldCloud for hate words
+Plot the graph for hate/racist tweets and non-racist/hate tweets
+Using extracting features from cleaned tweets- Bag-of-Words/TF-IDF
+     
+How can you proceed: 
+Clean the Data 
+Remove Twitter Handles @ from the data
+Remove Punctuations, Numbers, and Special Characters
+Remove Short Words
+Perform tokenization and stemming
+Understand common words  by plotting WorldcCloud
+
+
+Dataset: https://www.kaggle.com/nitin194/twitter-sentiment-analysis
+Training data: train_E6oV3lV.csv
+Testing data: test_tweets_anuFYb8.csv
+Resources: 
+https://monkeylearn.com/blog/sentiment-analysis-of-twitter/
+Generating WordCloud: https://www.geeksforgeeks.org/generating-word-cloud-python/
+Twitter Sentiment Analysis tutorial: https://pythonprogramming.net/twitter-sentiment-analysis-nltk-tutorial/
+Bag of words model: https://www.geeksforgeeks.org/bag-of-words-bow-model-in-nlp/?ref=rp
+Tokenizing words and sentences- https://pythonprogramming.net/tokenizing-words-sentences-nltk-tutorial/
+Introduction to Stemming- https://www.geeksforgeeks.org/introduction-to-stemming/
+
+
+## Day 8: Clustering Documents
+What will you learn? 
+
+Document clustering, also called text clustering, is a cluster analysis on textual documents. One of the typical usages would be document management.
+
+Task: Clustering or grouping the documents based on the patterns and similarities.
+
+Dataset: https://www.kaggle.com/dushyantv/consumer_complaints
+
+How can you implement it?
+1. Tokenization 
+2. Stemming and lemmatization 
+3. Removing stop words and punctuation 
+4. Computing term frequencies or TF-IDF 
+5. Clustering: K-means/Hierarchical; we can then use any of the clustering algorithms to cluster different documents based on the features we have generated
+6. Evaluation and visualization: 
+The clustering results can be visualized by plotting the clusters into a two-dimensional space (Plot clusters in 2D Graphs)
+
+Resources: 
+Basic visualization and clustering in Python:
+https://www.kaggle.com/dhanyajothimani/basic-visualization-and-clustering-in-python
+
+K-means clustering in Python: https://towardsdatascience.com/machine-learning-algorithms-part-9-k-means-example-in-python-f2ad05ed5203
+
+A Beginner’s Guide to Hierarchical Clustering: https://www.analyticsvidhya.com/blog/2019/05/beginners-guide-hierarchical-clustering/
+
+
+
+Topic: Implementing Multiclass Classification
+
+What will you learn?
+To understand how to do multiclass classification for text data in Python through solving Consumer complaint classifications for the finance industry.
+
+Task: 
+Classify Consumer Financial Protection Bureau complaints into the product category it belongs to using the description of the complaint
+
+Goal of the task: 
+The goal of the project is to classify the complaint into a specific product category. 
+Since it has multiple categories, it becomes a multiclass classification that can be solved through many of the machine learning algorithms. 
+Once the algorithm is in place, whenever there is a new complaint, we can easily categorize it and can then be redirected to the concerned person. 
+This will save a lot of time because we are minimizing the human intervention to decide whom this complaint should go to. 
+Use a visualization matrix to prepare actual vs predicted.
+
+Dataset: https://www.kaggle.com/subhassing/exploring-consumer-complaint-data/data
+
+Resources: 
+
+Multiclass and MultiLabel Algorithm: https://scikit-learn.org/stable/modules/multiclass.html#multilabel-classification-format
+
+Multi-Class Text Classification with Scikit-Learn:
+https://towardsdatascience.com/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f
+
+Plot a confusion Matrix: https://www.kaggle.com/grfiv4/plot-a-confusion-matrix
+
+
+## Day 9 & 10: Machine Learning on the Fly using TF.js
+
+Resources:
+
+Check these links for some fun code that is easy to use:
+Glitch: https://glitch.com/@TensorFlowJS
+CodePen: https://codepen.io/topic/tensorflow/templates
+Disappearing People: https://github.com/jasonmayes/Real-Time-Person-Removal
+For learning more check out:
+Deep Learning with JavaScript (covers everything):  https://livebook.manning.com/book/deep-learning-with-javascript/about-this-book/
+Gant Laborde's (GDE possibly on this thread) online class is also a fun intro to lower level usage of Tensors:  https://academy.infinite.red/p/beginning-machine-learning-with-tensorflow-js/
+Laurence Moroney's Coursera Course - goes more into training models and such with TF.js: https://www.coursera.org/learn/browser-based-models-tensorflow
+by Jason Mayes.
+
+Codelabs:
+https://codelabs.developers.google.com/codelabs/tfjs-training-classfication/index.html
+https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html#0
+
 
 
