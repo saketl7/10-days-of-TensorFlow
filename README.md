@@ -28,7 +28,7 @@ Plot the data like:
   y: number of case
   
   
-## Day 2:Pre-processing and Feature Engineering
+## Day 2: Pre-processing and Feature Engineering
 Real-world data are not simple integers and float; Hence we need to do some pre-processing and Feature Engineering! 
 
 Topic: Feature Engineering & Pre-processing.
@@ -50,7 +50,7 @@ Data link: https://www.kaggle.com/c/titanic/data
 Starter pack for beginners: https://colab.research.google.com/drive/18j97Ia-xlEKa9IWqEFt613CF1y4qgxVx
 
 
-## Day 3:Building ML Models and Training them
+## Day 3: Building ML Models and Training them
 We have already Learned about Data Preprocessing and Feature Engineering. Let's take a Step Ahead and Learn How to actually Build ML Models and Train them.
 
 To start with here are some basic types of ML problems and some Resources:
@@ -72,7 +72,7 @@ Analyze the Toxicity of comment's (Data
 ! wget https://www.dropbox.com/s/tst2y6mzwzbhxo3/test.csv)
 
 
-## Day 4:Unsupervised Learning
+## Day 4: Unsupervised Learning
 Introduction to Unsupervised Learning
 https://algorithmia.com/blog/introduction-to-unsupervised-learning
 
@@ -84,7 +84,7 @@ Dataset link: https://www.kaggle.com/c/expedia-personalized-sort/data
 Task: Prepare a model on the above Dataset
 
 
-## Day 5:Introduction to CNN 
+## Day 5: Introduction to CNN 
 Resources:
 1. Introduction to CNN- 
 https://towardsdatascience.com/introduction-to-convolutional-neural-networks-cnn-with-tensorflow-57e2f4837e18
@@ -104,7 +104,7 @@ https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip
 
 
 
-## Day 6:Imaging Problem 
+## Day 6: Imaging Problem 
 
 Resources: 
 1. Fashion MNIST with Keras and Deep Learning https://www.pyimagesearch.com/2019/02/11/fashion-mnist-with-keras-and-deep-learning/
@@ -124,7 +124,7 @@ For beginners: https://www.kaggle.com/zalando-research/fashionmnist
 For advanced users: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 
-## Day 7:Natural Language Processing 
+## Day 7: Natural Language Processing 
 
 Concepts: 
 1. Introduction to NLP: https://towardsdatascience.com/gentle-start-to-natural-language-processing-using-python-6e46c07addf3
@@ -240,6 +240,3 @@ by Jason Mayes.
 Codelabs:
 https://codelabs.developers.google.com/codelabs/tfjs-training-classfication/index.html
 https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html#0
-
-
-
