@@ -245,5 +245,6 @@ Laurence Moroney's Coursera Course - goes more into training models and such wit
 by Jason Mayes.
 
 Codelabs:
+
 https://codelabs.developers.google.com/codelabs/tfjs-training-classfication/index.html
 https://codelabs.developers.google.com/codelabs/tfjs-training-regression/index.html#0
